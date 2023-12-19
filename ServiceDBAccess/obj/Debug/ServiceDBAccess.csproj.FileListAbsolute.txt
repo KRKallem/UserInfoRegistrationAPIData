@@ -1,0 +1,69 @@
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll.config
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.dll
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.xml
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.dll
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Downloads\14012021 (1)\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.AssemblyReference.cache
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll.config
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\ServiceDBAccess.pdb
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.dll
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.xml
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.AssemblyReference.cache
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CoreCompileInputs.cache
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.dll
+C:\eTenderApps\eTenderAPI\ServiceDBAccess\obj\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll.config
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\EntityFramework.dll
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\EntityFramework.xml
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\obj\Debug\ServiceDBAccess.dll
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\obj\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Documents\eTenderApps\eTenderApi\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll.config
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.dll
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.xml
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CopyComplete
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.dll
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.pdb
+C:\Users\HP\Documents\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.AssemblyReference.cache
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll.config
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\ServiceDBAccess.pdb
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.dll
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.xml
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.AssemblyReference.cache
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CoreCompileInputs.cache
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CopyComplete
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.dll
+D:\eTender_Latest\eTenderApi21072023\eTenderApplicationsv2.0_Dev_API_28062022\ServiceDBAccess\obj\Debug\ServiceDBAccess.pdb
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll.config
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\ServiceDBAccess.dll
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\ServiceDBAccess.pdb
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\EntityFramework.dll
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\EntityFramework.xml
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.AssemblyReference.cache
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CoreCompileInputs.cache
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\obj\Debug\ServiceDBAccess.csproj.CopyComplete
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\obj\Debug\ServiceDBAccess.dll
+E:\UserInfoRegistrationAPIData\ServiceDBAccess\obj\Debug\ServiceDBAccess.pdb
