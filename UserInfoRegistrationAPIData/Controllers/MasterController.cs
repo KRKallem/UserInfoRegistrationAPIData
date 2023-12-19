@@ -19,6 +19,46 @@ namespace RegistrationAPI.Controllers
         #endregion
 
         #region Koteswar        
+ //Get the specific userinfo by using userid
+        [HttpGet]
+        [Route("~/api/Master/GetuserdetailbyID")]
+        public HttpResponseMessage GetuserdetailbyID(int id)
+        {
+            using (ServiceDB)
+            {
+                try
+                {
+                    ServiceDB.Configuration.ProxyCreationEnabled = false;
+                    var Type = (from x in ServiceDB.Users 
+                                where x.id == id
+
+                                select new
+                                {
+                                    userName = x.userName,
+                                    mailID = x.mailID,
+                                    phoneNumber = x.phoneNumber,
+                                    skillSet = x.skillSet,
+                                    hobby = x.hobby
+
+
+                }).FirstOrDefault();
+
+                    if (Type != null)
+                    {
+                        return Request.CreateResponse(HttpStatusCode.OK, Type);
+                    }
+                    else
+                    {
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Data not found");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "Data not found");
+                }
+            }
+        }
+
 
         //Retrieving user data 
 
