@@ -2,16 +2,16 @@ UserInfoRegistrationAPIData Process flow
 
 
 This project is developed by using ASP.net MVC WebAPI with .netframework 4.8 with IIS configuration.
-Reguirements files
+Required
 SQL server
-ASP.net MVC WebAPI project1
-Servicedbaccess project2 & Entity Framework
+ASP.net MVC WebAPI 
+Servicedbaccess & Entity Framework
 
-SQL Server:
+SQL Server 2019:
 Created a database with name of SampleDB" ünder windows authentication mode
 Created a table name as üsers with primarykey identity with autoincrement
 
-ASP.net MVC WebAPI project1:
+ASP.net MVC WebAPI project:
 Created ASP.net mvc webAPI project using dotnet framework 4.8 version and configured with IIS and given project url : http://localhost:50688/
 Created models ,clsEntity ,view for homepage and controllers
 Created connectionstring with dbaccess under wedconfig file
