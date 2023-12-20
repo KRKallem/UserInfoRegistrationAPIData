@@ -15,11 +15,10 @@ namespace RegistrationAPI.Controllers
     {
         #region Global Declaration
         SampleDBEntities ServiceDB = new SampleDBEntities();
-
         #endregion
 
         #region Koteswar        
- //Get the specific userinfo by using userid
+         //Get the specific userinfo by using userid
         [HttpGet]
         [Route("~/api/Master/GetuserdetailbyID")]
         public HttpResponseMessage GetuserdetailbyID(int id)
@@ -31,7 +30,6 @@ namespace RegistrationAPI.Controllers
                     ServiceDB.Configuration.ProxyCreationEnabled = false;
                     var Type = (from x in ServiceDB.Users 
                                 where x.id == id
-
                                 select new
                                 {
                                     userName = x.userName,
@@ -39,10 +37,7 @@ namespace RegistrationAPI.Controllers
                                     phoneNumber = x.phoneNumber,
                                     skillSet = x.skillSet,
                                     hobby = x.hobby
-
-
                 }).FirstOrDefault();
-
                     if (Type != null)
                     {
                         return Request.CreateResponse(HttpStatusCode.OK, Type);
@@ -58,10 +53,7 @@ namespace RegistrationAPI.Controllers
                 }
             }
         }
-
-
         //Retrieving user data 
-
         [HttpGet]
         [Route("~/api/Master/GetUserData")]
         public async Task<HttpResponseMessage> GetUserData()
@@ -74,7 +66,6 @@ namespace RegistrationAPI.Controllers
                     {
                         ServiceDB.Configuration.ProxyCreationEnabled = false;
                         var Type = await (from x in ServiceDB.Users
-
                                           select new
                                           {
                                               ID = x.id,
@@ -103,7 +94,6 @@ namespace RegistrationAPI.Controllers
                     {
                         ServiceDB.Configuration.ProxyCreationEnabled = false;
                         var Type = await (from x in ServiceDB.Users
-
                                           select new
                                           {
                                               ID = x.id,
@@ -148,8 +138,11 @@ namespace RegistrationAPI.Controllers
                             type.phoneNumber = userdata.phoneNumber;
                             type.skillSet = userdata.skillSet;
                             type.hobby = userdata.hobby;
-
                             ServiceDB.SaveChanges();
+                        }
+                        else
+                        {
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Data not found");
                         }
                     }
                     return Task.FromResult(Request.CreateResponse(HttpStatusCode.OK, true));
@@ -161,7 +154,6 @@ namespace RegistrationAPI.Controllers
             }
         }
 
-
         //Deleting the specific userinfo by using userid
         [HttpDelete]
         [Route("~/api/Master/DeleteUserByID")]
@@ -170,17 +162,27 @@ namespace RegistrationAPI.Controllers
             if (id <= 0)
                 return BadRequest("Not a valid student id");
 
-            using (var ctx = new SampleDBEntities())
+            using (ServiceDB)
             {
-                var student = ctx.Users
-                    .Where(s => s.id == id)
-                    .FirstOrDefault();
-
-                ctx.Entry(student).State = System.Data.Entity.EntityState.Deleted;
-                ctx.SaveChanges();
+                try
+                {            
+                    var userid = ServiceDB.Users.Where(s => s.id == id).FirstOrDefault();
+                    if(userid !=null)
+                    {
+                    ServiceDB.Entry(userid).State = System.Data.Entity.EntityState.Deleted;
+                    ServiceDB.SaveChanges();
+                    }
+                    else
+                    {
+                    return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Data not found");
+                    }
+                    return Ok("UserDetails deleted Successful");
+                }
+                catch (Exception Ex)
+                    {
+                        return Task.FromResult(Request.CreateResponse(HttpStatusCode.BadRequest, "Operation Failed Something Went Wrong :" + Ex.Message));
+                    }
             }
-
-            return Ok();
         }
         #endregion
     }
